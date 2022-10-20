@@ -11,8 +11,8 @@
   DTS:LocaleID="4105"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="9"
-  DTS:VersionGUID="{ECE082B9-1554-4210-849F-59574729AD4A}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{A1C0403D-6081-4F58-A3A4-EEBAB406CA8F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -56,13 +56,13 @@
       <DTS:Variables />
       <DTS:Executables>
         <DTS:Executable
-          DTS:refId="Package\ForLC\Execute Package Task"
+          DTS:refId="Package\Foreach Loop Container\EPT"
           DTS:CreationName="Microsoft.ExecutePackageTask"
           DTS:Description="Execute Package Task"
           DTS:DTSID="{65DF0B51-509C-48E3-92C4-DD9E84CC9150}"
           DTS:ExecutableType="Microsoft.ExecutePackageTask"
           DTS:LocaleID="-1"
-          DTS:ObjectName="Execute Package Task"
+          DTS:ObjectName="EPT"
           DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
           <DTS:Variables />
           <DTS:ObjectData>
@@ -100,9 +100,9 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="160.8,41.6"
-          Id="Package\ForLC\Execute Package Task"
-          TopLeft="86.2857196379678,24.42353292947" />
+          Size="182.4,41.6"
+          Id="Package\Foreach Loop Container\EPT"
+          TopLeft="103.428577072766,25.1882388225477" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
