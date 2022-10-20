@@ -11,8 +11,8 @@
   DTS:LocaleID="4105"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{18CB2E57-7B87-4185-8F6B-60DA929A0B43}">
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{1EC7113E-AD74-4758-8C94-36B75C825715}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -29,13 +29,13 @@
   </DTS:Variables>
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\Foreach Loop Container"
+      DTS:refId="Package\FLC"
       DTS:CreationName="STOCK:FOREACHLOOP"
       DTS:Description="Foreach Loop Container"
       DTS:DTSID="{93DE296B-C2EB-40EE-819B-74620DAA024C}"
       DTS:ExecutableType="STOCK:FOREACHLOOP"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Foreach Loop Container">
+      DTS:ObjectName="FLC">
       <DTS:ForEachEnumerator
         DTS:CreationName="Microsoft.ForEachFileEnumerator"
         DTS:DTSID="{FC6BBC0B-FB96-4879-9E6D-5A81E5DC8D01}"
@@ -56,7 +56,7 @@
       <DTS:Variables />
       <DTS:Executables>
         <DTS:Executable
-          DTS:refId="Package\Foreach Loop Container\EPT"
+          DTS:refId="Package\FLC\EPT"
           DTS:CreationName="Microsoft.ExecutePackageTask"
           DTS:Description="Execute Package Task"
           DTS:DTSID="{65DF0B51-509C-48E3-92C4-DD9E84CC9150}"
@@ -80,8 +80,8 @@
       <DTS:ForEachVariableMappings>
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{F742AC92-7B6C-4B28-B250-8455815BF32A}"
-          DTS:ObjectName="{F742AC92-7B6C-4B28-B250-8455815BF32A}"
+          DTS:DTSID="{36B9AA01-9530-4344-8176-3CB3B0850C70}"
+          DTS:ObjectName="{36B9AA01-9530-4344-8176-3CB3B0850C70}"
           DTS:ValueIndex="0"
           DTS:VariableName="User::Variable" />
       </DTS:ForEachVariableMappings>
@@ -101,14 +101,14 @@
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
           Size="182.4,41.6"
-          Id="Package\Foreach Loop Container\EPT"
+          Id="Package\FLC\EPT"
           TopLeft="86.2857196379678,24.42353292947" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
           PanelSize="291.2,121.6"
           Size="291.2,164.8"
-          Id="Package\Foreach Loop Container"
+          Id="Package\FLC"
           TopLeft="227.857146737527,183.529414338637" />
       </GraphLayout>
     </LayoutInfo>
