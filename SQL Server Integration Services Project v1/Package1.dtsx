@@ -11,8 +11,8 @@
   DTS:LocaleID="4105"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{1EC7113E-AD74-4758-8C94-36B75C825715}">
+  DTS:VersionBuild="6"
+  DTS:VersionGUID="{3B25B185-B710-4911-B4D9-1AA6DF66D613}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -56,13 +56,13 @@
       <DTS:Variables />
       <DTS:Executables>
         <DTS:Executable
-          DTS:refId="Package\FLC\EPT"
+          DTS:refId="Package\FLC\ExecPackageTask"
           DTS:CreationName="Microsoft.ExecutePackageTask"
           DTS:Description="Execute Package Task"
           DTS:DTSID="{65DF0B51-509C-48E3-92C4-DD9E84CC9150}"
           DTS:ExecutableType="Microsoft.ExecutePackageTask"
           DTS:LocaleID="-1"
-          DTS:ObjectName="EPT"
+          DTS:ObjectName="ExecPackageTask"
           DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
           <DTS:Variables />
           <DTS:ObjectData>
@@ -101,7 +101,7 @@
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
           Size="182.4,41.6"
-          Id="Package\FLC\EPT"
+          Id="Package\FLC\ExecPackageTask"
           TopLeft="86.2857196379678,24.42353292947" />
         <ContainerLayout
           HeaderHeight="43"
