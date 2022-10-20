@@ -11,8 +11,8 @@
   DTS:LocaleID="4105"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{3B25B185-B710-4911-B4D9-1AA6DF66D613}">
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{09DF8F44-97DA-4F21-AE42-D71BD5EE90AF}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -29,13 +29,13 @@
   </DTS:Variables>
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\FLC"
+      DTS:refId="Package\ForLC"
       DTS:CreationName="STOCK:FOREACHLOOP"
       DTS:Description="Foreach Loop Container"
       DTS:DTSID="{93DE296B-C2EB-40EE-819B-74620DAA024C}"
       DTS:ExecutableType="STOCK:FOREACHLOOP"
       DTS:LocaleID="-1"
-      DTS:ObjectName="FLC">
+      DTS:ObjectName="ForLC">
       <DTS:ForEachEnumerator
         DTS:CreationName="Microsoft.ForEachFileEnumerator"
         DTS:DTSID="{FC6BBC0B-FB96-4879-9E6D-5A81E5DC8D01}"
@@ -56,7 +56,7 @@
       <DTS:Variables />
       <DTS:Executables>
         <DTS:Executable
-          DTS:refId="Package\FLC\ExecPackageTask"
+          DTS:refId="Package\ForLC\ExecPackageTask"
           DTS:CreationName="Microsoft.ExecutePackageTask"
           DTS:Description="Execute Package Task"
           DTS:DTSID="{65DF0B51-509C-48E3-92C4-DD9E84CC9150}"
@@ -80,8 +80,8 @@
       <DTS:ForEachVariableMappings>
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{36B9AA01-9530-4344-8176-3CB3B0850C70}"
-          DTS:ObjectName="{36B9AA01-9530-4344-8176-3CB3B0850C70}"
+          DTS:DTSID="{30E29461-7EBC-4F2A-859E-FD0CA87EDC85}"
+          DTS:ObjectName="{30E29461-7EBC-4F2A-859E-FD0CA87EDC85}"
           DTS:ValueIndex="0"
           DTS:VariableName="User::Variable" />
       </DTS:ForEachVariableMappings>
@@ -100,15 +100,15 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="182.4,41.6"
-          Id="Package\FLC\ExecPackageTask"
+          Size="160.8,41.6"
+          Id="Package\ForLC\ExecPackageTask"
           TopLeft="86.2857196379678,24.42353292947" />
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
           PanelSize="291.2,121.6"
           Size="291.2,164.8"
-          Id="Package\FLC"
+          Id="Package\ForLC"
           TopLeft="227.857146737527,183.529414338637" />
       </GraphLayout>
     </LayoutInfo>
